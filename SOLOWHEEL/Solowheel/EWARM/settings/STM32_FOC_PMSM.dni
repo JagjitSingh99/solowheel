@@ -1,0 +1,111 @@
+[DebugChecksum]
+Checksum=291924569
+[DisAssemblyWindow]
+NumStates=_ 1
+State 1=_ 1
+[InstructionProfiling]
+Enabled=_ 0
+[CodeCoverage]
+Enabled=_ 0
+[Profiling]
+Enabled=0
+[StackPlugin]
+Enabled=1
+OverflowWarningsEnabled=1
+WarningThreshold=90
+SpWarningsEnabled=1
+WarnHow=0
+UseTrigger=1
+TriggerName=main
+LimitSize=0
+ByteLimit=50
+[BreakpointUsageDialog]
+Placement=_ 622 376 1059 647
+[Exceptions]
+StopOnUncaught=_ 0
+StopOnThrow=_ 0
+[Stack]
+FillEnabled=0
+OverflowWarningsEnabled=1
+WarningThreshold=90
+SpWarningsEnabled=1
+WarnLogOnly=1
+UseTrigger=1
+TriggerName=main
+LimitSize=0
+ByteLimit=50
+[CallStack]
+ShowArgs=0
+[JLinkDriver]
+WatchCond=_ 0
+Watch0=_ 0 "" 0 "" 0 "" 0 "" 0 0 0 0
+Watch1=_ 0 "" 0 "" 0 "" 0 "" 0 0 0 0
+CStepIntDis=_ 0
+[Breakpoints]
+Bp0=_ "EMUL_DATA" "State" 0 0 0 116 0 "" 0 "" 0 0 0 4294967295
+Bp1=_ "EMUL_DATA" "State" 0 0 0 116 0 "" 0 "" 0 0 0 4294967295
+Bp2=_ "EMUL_DATA" "State" 0 0 0 116 0 "" 0 "" 0 0 0 4294967295
+Bp3=_ "EMUL_DATA" "wGlobal_Flags" 0 0 0 148 0 "" 0 "" 0 0 0 4294967295
+Bp4=_ "EMUL_DATA" "ADC_ExternalTrigConv" 0 0 0 116 0 "" 0 "" 0 0 0 4294967295
+Bp5=_ "EMUL_DATA" "ADC_InitStructure.ADC_ExternalTrigConv" 0 0 0 116 0 "" 0 "" 0 0 0 4294967295
+Bp6=_ "STD_CODE" "0x08000462" 0 0 0 0 "" 0 "" 0
+Count=7
+[Disassembly]
+MixedMode=0
+[InterruptLog]
+LogEnabled=0
+SumEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+ShowTimeSum=1
+SumSortOrder=0
+[DataLog]
+LogEnabled=0
+SumEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+ShowTimeSum=1
+[Interrupts]
+Enabled=1
+[MemoryMap]
+Enabled=0
+Base=0
+UseAuto=0
+TypeViolation=1
+UnspecRange=1
+ActionState=1
+[Trace1]
+Enabled=0
+ShowSource=1
+[array_types]
+Fmt0=vs16[1300]	3	0
+Fmt1=vs16[1500]	3	0
+[watch_formats]
+Fmt0={W}0:StartUp	4	0
+Fmt1={W}0:wGlobal_Flags	4	0
+[Log file]
+LoggingEnabled=_ 0
+LogFile=_ ""
+Category=_ 0
+[TermIOLog]
+LoggingEnabled=_ 0
+LogFile=_ ""
+[CallStackLog]
+Enabled=0
+[DriverProfiling]
+Enabled=0
+Mode=0
+Graph=0
+Symbiont=0
+Exclusions=
+[Disassemble mode]
+mode=1
+[Breakpoints2]
+Count=0
+[Aliases]
+A0=_ "C:\Users\Daniel\Dropbox\MISC\stm32_foc\STM32F10XFWLIB\src\stm32f10x_flash.c" "C:\Users\Gimpster\Dropbox\MISC\stm32_foc\STM32F10XFWLIB\src\stm32f10x_flash.c"
+A1=_ "C:\Users\Daniel\Dropbox\MISC\stm32_foc\STM32F10XFWLIB\src\stm32f10x_usart.c" ""
+A2=_ "C:\Users\gimpster\Dropbox\stm32_foc\!Shipping_Latest_STM32_FOC_PMSM - V4 Digital GyroAccelNew\EWARM\cortexm3_macro.s" "C:\Users\Daniel\Dropbox\MISC\stm32_foc\!Shipping_Latest_STM32_FOC_PMSM - V4 Digital GyroAccelNew\EWARM\cortexm3_macro.s"
+A3=_ "C:\Users\gimpster\Dropbox\stm32_foc\Shipping_Latest_STM32_FOC_PMSM - V4 Digital GyroAccelNew\src\MC_PID_regulators.c" "C:\Users\gimpster\Dropbox\stm32_foc\!Shipping_Latest_STM32_FOC_PMSM - V4 Digital GyroAccelNew\src\MC_PID_regulators.c"
+Count=4
+SuppressDialog=1
